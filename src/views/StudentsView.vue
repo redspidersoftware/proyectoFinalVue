@@ -11,7 +11,7 @@
   </template>
   
   <script setup lang="ts">
-  import { useStudentsStore, Student } from "../stores/studentsStore"
+  import { useStudentsStore } from "../stores/studentsStore"
   const studentsStore = useStudentsStore()
   
   const nuevoEstudiante = () => {
